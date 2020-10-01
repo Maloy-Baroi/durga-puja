@@ -1,0 +1,98 @@
+body::after {
+    content: "";
+    background: url('bg-1.jpg');
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+}
+
+#id_header{
+  font-family: 'Alfa Slab One', cursive;
+  color: #000000;
+  text-align: center;
+}
+
+#id_hindu_calender_menu_selector {
+    background-color: transparent;
+    border: transparent;
+}
+
+#id_logo {
+    width: 50px!important;
+    height: 50px!important;
+    border-radius: 50%;
+}
+
+table.tableizer-table {
+    font-size: 16px;
+    border: 1px solid #CCC;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.tableizer-table td {
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid #000000;
+}
+
+.tableizer-table th {
+    background-color: #104E8B;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.presentation_modal {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.prev-one,
+.next-one {
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-one {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-one:hover,
+.next-one:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
